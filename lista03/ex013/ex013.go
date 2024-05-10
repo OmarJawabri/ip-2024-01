@@ -22,6 +22,11 @@ func main(){
 					maiorf = frequencia[i]
 					valor = inteiros[i]
 				}
+				if frequencia[i] == maiorf{
+					if inteiros[i] < valor{
+						valor = inteiros[i]
+					}
+				}
 			} else{
 				y++
 			}
